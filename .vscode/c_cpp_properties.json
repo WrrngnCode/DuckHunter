@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/libs/**",
+                "${workspaceFolder}/include/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__AVR_ATmega328P__",
+                "ARDUINO=10816",
+                "ARDUINO_AVR_NANO",
+                "ARDUINO_ARCH_AVR",
+                "F_CPU=16000000L",
+                "BAUD=9600L",
+                "ADC_CHANNEL=7"
+            ],
+            "compilerPath": "C:\\msys64\\mingw64\\bin\\avr-gcc.exe",
+            "intelliSenseMode": "gcc-x86",
+            "browse": {
+                "path": [
+                  //"${workspaceFolder}"
+                ]
+            },
+            "configurationProvider":"ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
